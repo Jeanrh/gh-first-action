@@ -10,4 +10,4 @@ jobs:
         run: echo "Done - bye!"
       - name: Search cat
         run: |
-          curl -X GET "https://api.exemplo.com/facts/random?animal_type=cat&amount=2"
+          curl -X GET "https://cat-fact.herokuapp.com/facts/random?animal_type=cat&amount=2"
